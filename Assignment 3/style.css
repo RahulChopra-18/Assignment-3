@@ -1,0 +1,18 @@
+
+body{
+    background-color: black;
+}
+button{
+    background-color: black;
+    color: red;
+    border: 1px solid lawngreen;
+    transition: transform 100ms;
+    margin: 200px 600px;
+}
+
+button:hover{
+    background-color: red;
+    color: black;
+    transform: translate(0px,-5px);
+    box-shadow: 0px 4px 5px yellow;
+}
